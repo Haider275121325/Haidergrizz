@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page personnelle de Haider</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            margin-bottom: 15px;
+        }
+        .interests {
+            font-style: italic;
+        }
+        .highlight {
+            font-weight: bold;
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenue sur ma page personnelle !</h1>
+    </header>
+    <section>
+        <h2>À propos de moi</h2>
+        <p>Salut, je m'appelle Haider et j'ai 13 ans. J'habite à Onex dans le canton de Genève. Mon animal préféré est l'ours, parce qu'il me ressemble.</p>
+        <p>Mon jeu préféré est <span class="highlight">GTA V</span>. J'adore explorer Los Santos et accomplir toutes les missions du mode histoire à 100% ! C'est vraiment excitant de découvrir tous les détails du jeu.</p>
+    </section>
+    <section>
+        <h2>Mes intérêts</h2>
+        <p>En dehors des jeux vidéo, j'aime aussi faire du camping, spécialement les feux de camp. C'est génial de passer du temps à l'extérieur et de profiter de la nature.</p>
+    </section>
+    <footer>
+        <p class="interests">Merci d'avoir visité ma page ! Reviens bientôt pour plus d'aventures virtuelles et réelles.</p>
+    </footer>
+</body>
+</html>
